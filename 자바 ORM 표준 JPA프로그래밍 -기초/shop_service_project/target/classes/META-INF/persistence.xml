@@ -15,7 +15,6 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
 <!--            <property name="hibernate.jdbc.batch_size" value="10"/>-->
-            <!-- 17번째 라인은 batch size를 정하여 영속성 컨텍스트에 해당 사이즈만큼의 query문이 쌓이면 commit을 한다.-->
 
             <property name="hibernate.hbm2ddl.auto" value="create" />
         </properties>
