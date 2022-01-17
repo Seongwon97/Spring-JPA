@@ -1,1 +1,18 @@
+# Directories #
+/build/
+/bin/
+target/
+   
+# OS Files #
 .DS_Store
+   
+*.class
+   
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+
+출처: https://lee-mandu.tistory.com/318 [개발/일상_Mr.lee]
