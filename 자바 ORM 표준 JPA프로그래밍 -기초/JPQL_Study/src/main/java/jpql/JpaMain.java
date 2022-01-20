@@ -12,11 +12,6 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member = new Member();
-            member.setUsername("member1");
-            member.setAge(10);
-            em.persist(member);
-
             /*
             // TypeQuery, Query 학습
             TypedQuery<Member> result1 = em.createQuery("select m from Member as m", Member.class);
@@ -67,7 +62,30 @@ public class JpaMain {
             System.out.println("username = " + result.getUsername());
             System.out.println("age = " + result.getAge());
              */
-            
+
+            /*
+
+             */
+
+            for (int i = 0; i < 100; i++) {
+                Member member = new Member();
+                member.setUsername("member" + i);
+                member.setAge(i);
+                em.persist(member);
+            }
+            em.flush();
+            em.clear();
+
+            List<Member> resultList = em.createQuery("select m from Member m order by m.age desc", Member.class)
+                    .setFirstResult(2)
+                    .setMaxResults(10)
+                    .getResultList();
+
+            System.out.println("result.size = " + resultList.size());
+            for(Member member1 : resultList) {
+                System.out.println("member1 = " + member1);
+            }
+
 
             tx.commit();
         } catch (Exception e) {
