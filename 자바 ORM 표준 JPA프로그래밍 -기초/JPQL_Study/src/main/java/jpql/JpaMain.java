@@ -40,6 +40,34 @@ public class JpaMain {
                     .getSingleResult();
              */
 
+            /*
+            // 프로젝션의 여러값을 조회하는 방법들
+            // 1. Query 타입으로 조회
+            List resultList = em.createQuery("select m.username, m.age from Member m")
+                    .getResultList();
+
+            Object o = resultList.get(0);
+            Object[] result = (Object[]) o;
+            System.out.println("username = " + result[0]);
+            System.out.println("age = " + result[1]);
+
+            // Object[] 타입으로 조회
+            List<Object[]> resultList = em.createQuery("select m.username, m.age from Member m")
+                    .getResultList();
+
+            Object[] result = resultList.get(0);
+            System.out.println("username = " + result[0]);
+            System.out.println("age = " + result[1]);
+
+            // DTO를 활용한 방법
+            List<MemberDTO> resultList = em.createQuery("select new jpql.MemberDTO(m.username, m.age) from Member m", MemberDTO.class)
+                    .getResultList();
+
+            MemberDTO result = resultList.get(0);
+            System.out.println("username = " + result.getUsername());
+            System.out.println("age = " + result.getAge());
+             */
+            
 
             tx.commit();
         } catch (Exception e) {
