@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9962988-7324-42be-a9ef-908cb6a7afd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/JpaMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/MemberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/java/jpql/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/JPQL_Study/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/InheritenceMapping/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/InheritenceMapping/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/InheritenceMapping/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/InheritenceMapping/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/JpaMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/java/hellojpa/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/target/classes/hellojpa/JpaMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/jpa-basic/target/classes/hellojpa/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/java/jpabook/jpashop/domain/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/JpaMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Delivery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/DeliveryStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바 ORM 표준 JPA프로그래밍 -기초/shop_service_project/target/classes/jpabook/jpashop/domain/OrderStatus.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jpashop" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="240cxFeSEbv0RgkzjVn6rC0A03P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JpashopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jpashop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabook.jpashop.JpashopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9962988-7324-42be-a9ef-908cb6a7afd3" name="Changes" comment="" />
+      <created>1642771189220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642771189220</updated>
+      <workItem from="1642771190470" duration="2035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
