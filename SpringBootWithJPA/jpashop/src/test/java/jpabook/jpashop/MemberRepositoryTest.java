@@ -1,5 +1,6 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.domain.Member;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.runner.RunWith;
@@ -24,15 +25,15 @@ public class MemberRepositoryTest {
     public void testMember() {
         // given
         Member member = new Member();
-        member.setUsername("Member A");
+        member.setName("Member A");
 
         // when
         Long savedId = memberRepository.save(member);
         Member findMember = memberRepository.find(savedId);
 
         // then
-        Assertions.assertEquals(findMember.getUsername(), member.getUsername());
-        Assertions.assertEquals(findMember.getUsername(), member.getUsername());
+        Assertions.assertEquals(findMember.getName(), member.getName());
+        Assertions.assertEquals(findMember.getName(), member.getName());
     }
 
 }
