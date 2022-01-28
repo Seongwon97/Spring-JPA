@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
@@ -43,4 +44,11 @@ public class MemberController {
         memberService.join(member);
         return "redirect:/";
     }
+
+    @GetMapping("/members")
+    public String list(Model model) {
+        model.addAttribute("members", memberService.findMembers());
+        return "members/memberList";
+    }
+    // 해당 코드에서는 Model에 엔티티를 넘겼지만 api를 만들 때는 절대로 엔티티를 외부로 반환하면 안된다. (템플릿 엔진을 쓸때는 괜찮음)
 }
