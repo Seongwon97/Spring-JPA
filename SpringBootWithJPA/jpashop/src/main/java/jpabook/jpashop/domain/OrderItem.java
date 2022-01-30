@@ -12,10 +12,12 @@ import javax.persistence.*;
 import static javax.persistence.FetchType.*;
 
 @Entity
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class OrderItem {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "order_item_id")
     private Long id;
 
@@ -43,6 +45,7 @@ public class OrderItem {
     }
 
     //== 비즈니스 로직 ==
+
     /**
      * 재고수량을 복구
      */

@@ -28,6 +28,7 @@ public abstract class Item {
     private List<Category> categories = new ArrayList<>();
 
     // 비즈니스 로직 - 엔티티 안에서 해결할 수 있는 것은 엔티티 안에 넣는 것이 더 좋다.
+
     /**
      * 재고 수량을 증가
      */
