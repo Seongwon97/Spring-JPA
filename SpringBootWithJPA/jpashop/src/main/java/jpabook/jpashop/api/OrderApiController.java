@@ -44,6 +44,12 @@ public class OrderApiController {
         return new Result(collect.size(), collect);
     }
 
+    @GetMapping("/api/v3/orders")
+    public Result orderV3() {
+        List<Order> orders = orderRepository.findAllWithItem();
+        return new Result(orders.size(), orders);
+    }
+
     @Data
     @AllArgsConstructor
     static class Result<T> {
